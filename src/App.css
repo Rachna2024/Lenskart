@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+  margin: 0%;
+  font-family: sans-serif;
+}
+
+.cart-navbar {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shield-content {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  color: grey;
+}
+
+.continue-shopping {
+  background-color: #faf9f7;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 100px);
+  box-sizing: border-box;
+}
+
+.continue-shopping p {
+  font-size: 30px;
+  color: #001a35;
+}
+
+.continue-shopping button {
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 10px 40px;
+  background-color: #20d7aa;
+  color: #001a35;
+  border: none;
+  border-radius: 55px;
+  cursor: pointer;
+}
+
+.icon-buttons {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icon-button {
+  background-color: #010042;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
